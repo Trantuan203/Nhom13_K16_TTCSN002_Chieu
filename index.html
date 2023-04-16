@@ -1,8 +1,108 @@
-"<div id="github-test"></div>    "
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <div id="header">
+                <!-- header-logo begin -->
+                <div class="header-logo">
+                    <img src="./assets/img/logo.png" alt="">
+                </div>
+                <!-- header-logo begin -->
+                <!-- header-menu-begin -->
+                <ul class="header-menu">
+                    <li><a href="">
+                        Áo
+                        <i class="header-menu-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="header-submenu">
+                            <li><a href="">Áo phông</a></li>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo kiểu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">
+                        Váy
+                        <i class="header-menu-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="header-submenu">
+                            <li><a href="">Chân váy</a></li>
+                            <li><a href="">Váy</a></li>
+                            <li><a href="">Set váy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">
+                        Quần
+                        <i class="header-menu-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="header-submenu">
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần cộc</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">
+                        Đồ ngủ
+                        <i class="header-menu-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="header-submenu">
+                            <li><a href="">Đồ bộ</a></li>
+                            <li><a href="">Váy ngủ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">
+                        Phụ kiện
+                        <i class="header-menu-arrow-down ti-angle-down"></i>
+                    </a>
+                        <ul class="header-submenu">
+                            <li><a href="">Túi xách</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                 <!-- header-menu-end -->
+                 <!-- header-begin-search-button -->
+                 <div class="header-search-button">
+                    <input type="text" class="search-button-text">
+                    <i class="search-icon ti-search"></i>
+                    </i>
+                    <i class="cart ti-shopping-cart"></i>
 
-<h1>moi nguoi da hoc duoc git chua</h1>
-<h1>ai roi thi dien ten xuong duoi nha</h1>
-<h1>Trần Quốc Tuấn</h1>
-<h1>Nguyen Thi Linh Ngân xinh</h1>
-<h1>Ngggocccc cinhhhhh x8 nằm ngang</h1>
+                 </div>
+                 <!-- header-begin-search-button -->
+            </div>
+        <div id="slider">
+            <img src="slider1.jpg" alt="" id = "hinh">
+            <i class="slider-icon-first ti-arrow-circle-left" onclick="pre()"></i>
+            <i class="slider-icon-next ti-arrow-circle-right" onclick="next()"></i>
+        </div>
+        <script>
+            var index = 0;
+            var arr_hinh = ["slider1.jpg","slider2.jpg", "slider2.png", "slider1.png"];
+            function pre(){
+                index--;
+                if(index<-0) index = arr_hinh.length-1;
+                document.getElementById("hinh").src= arr_hinh[index];
+            }
+            function next(){
+                index++;
+                if(index==arr_hinh.length){
+                    index = 0;
+                }
+                document.getElementById("hinh").src= arr_hinh[index];
+            }
+             setInterval("next()",3000);
+
+        </script>
+        </header>
+    </div>
+
+</body>
+</html>s
 
