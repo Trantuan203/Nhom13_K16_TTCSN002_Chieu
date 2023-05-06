@@ -1,0 +1,265 @@
+/* reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fff;
+}
+/*
+    1.vi tri
+    2. kich thuoc
+    3. mau sac
+*/
+header{
+    display: block;
+}
+#header{
+    height: 70px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-logo{
+    float: left;
+}
+.header-logo>img{
+    width: 70px;
+    height: 70px;
+}
+.header-menu{
+    display: inline-block;
+}
+.header-menu >li{
+    display: inline-block;
+    position: relative;
+}
+.header-menu .header-submenu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 100%;
+    left: 0;
+}
+.header-submenu a{
+    color: #000;
+    padding: 16px;
+    line-height: 28px;
+     width: 250px;
+}
+.header-menu>li>a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.header-menu li a{
+    text-decoration: none;
+    line-height: 70px;
+    padding: 0 70px;
+    display: block;
+   
+}
+.header-menu> li:hover >a,.header-submenu>li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.header-menu li:hover .header-submenu{
+    display: block;
+}
+.header-menu-arrow-down{
+    font-size: 10px;
+
+}
+.header-search-button{
+    float: right;
+}
+.header-search-button .search-icon, .header-search-button>.cart{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.header-search-button>.search-button-text{
+    border: none;
+    line-height: 35px;
+    padding-top:5px;
+    width: 300px;
+
+}
+#slider{
+    margin-top: 70px;
+    width: 100%;
+    height: 800px;
+}
+#slider #hinh{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+#slider>.slider-icon-first {
+    position:absolute;
+    top:40%;
+    left:20px;
+    font-size: 60px;
+    font-weight: 100;
+    color: #fff;
+
+    
+}
+#slider>.slider-icon-next {
+    position: absolute;
+    top:40%;
+    right:20px;
+    font-size: 60px;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+
+  /*
+
+code fooder
+
+  */
+
+  *{
+    margin:0;
+    font-family: Arial;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+}
+.footer{
+    
+    padding: 30px 60px 0px 60px;
+    background: #333f48;
+    bottom: 0;
+    
+}
+.grid{
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.grid__column{
+   
+    width: 25%;
+}
+h3{
+    color: #fff;
+}
+.footer__item__start{
+    display: flex;
+}
+
+.footer__item__logo{
+    width: 55px;
+    height: auto;
+    border-radius: 10%;
+}
+.footer__item__slogan{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.item__content{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.9;
+    font-weight: 0;
+    flex: 1;
+    margin-top: 5px;
+}
+
+.footer__list{
+    list-style: none; 
+}
+
+.footer_item_link{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 0px;
+    display: block;
+    font-size: 13px;
+}
+.footer_item_link:hover{
+    color:rgb(39, 39, 39); 
+}
+.item__button__display{
+    display: block;
+}
+.item_button{
+    text-decoration: none;
+    text-align: center;
+    border: 1px ;
+    color: #333f48;
+    font-size: 14.25px;
+    background-color: #fff;
+    padding:8px 0;
+    margin-top: 18px;
+}
+.item_button:hover{
+    background-color: #333f48;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.footer__item{
+    margin-top: 33px;
+    margin-left: -12px;
+}
+.footer__item__icon{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    padding: 8px;
+    padding-right: 0;
+    margin-right: 8px;
+    display: inline-flex;
+    min-width: 30px;
+}
+.footer__item__icon:hover{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10%;
+}
+.grid__row_item{
+    display: block;
+    padding-top: 45px;
+}
+.footer__text__2{
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.footer__item__img{
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 450px;
+
+}
+.footer__item__end{
+    font-size: 12px;
+    color: #fff;
+    margin-left: 400px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
