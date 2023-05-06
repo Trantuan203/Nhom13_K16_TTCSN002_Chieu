@@ -21,7 +21,7 @@ header{
 #header{
     height: 70px;
     background-color: #000;
-    position: fixed;
+    position:absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -35,6 +35,9 @@ header{
 }
 .header-menu{
     display: inline-block;
+    float: left;
+
+    
 }
 .header-menu >li{
     display: inline-block;
@@ -78,12 +81,15 @@ header{
 
 }
 .header-search-button{
+    display: block;
     float: right;
 }
 .header-search-button .search-icon, .header-search-button>.cart{
+    
+
     line-height: 70px;
     color: #fff;
-    font-size: 20px;
+    font-size: auto;
     padding: 0 20px;
     cursor: pointer;
 }
@@ -91,7 +97,7 @@ header{
     border: none;
     line-height: 35px;
     padding-top:5px;
-    width: 300px;
+
 
 }
 #slider{
@@ -122,6 +128,112 @@ header{
     font-weight: 100;
     color: #fff;
 }
+
+
+/*
+
+code boby
+
+  */
+  body #body-category{
+    background-color: rgb(182, 238, 238);
+    margin-top:40px ;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  body #body-category1{
+    background-color: rgb(182, 238, 238);
+    margin-top:20px ;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  body #body-item0 {
+    display: flex;
+    justify-content: space-around;
+    height: 320px;
+    width: 100%;  
+    flex-wrap: nowrap ;
+    
+  }
+  
+  body #body-item0 ul li{
+    height: 200px;
+    width : 100%;
+    padding : 5px;
+    flex-grow:1;
+    
+  }
+  body #body-item0 img{
+    height: 150%;
+    width:100%;
+    
+
+  }
+  body #body-body-show1 {
+    display: flex;
+    
+    height: 300px;
+
+  }
+ body #body-item ul  {
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    
+    
+    
+
+  }
+  body #body-item ul li  {
+
+    text-align: left;
+    padding : 10px ;
+    border:1px#000000 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+  }
+
+
+  body #body-item {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    margin:5px;
+    margin-top:15px;
+    flex-wrap: wrap ;
+
+    
+  }
+  body #body-item img  {
+    height: 200px;
+    text-align: center;
+  }
+  #body-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+    background: #ffffff;
+}
+  .button1 {
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #e01d1d;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border: 3px solid #e01010;
+    border-radius: 20px;
+    margin-top:20px;
+  }
+
 
 
 
