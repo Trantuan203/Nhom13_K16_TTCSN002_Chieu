@@ -34,7 +34,7 @@
                 <div class="user-info pull-right">
                     <div class="user">
                         <ul>
-                            <li><a href="#" data-toggle="modal" data-target="#login">Đăng nhập</a> 
+                            <li><a href="#" data-toggle="modal" data-target="#login" class="user_name">Đăng nhập</a> 
                                 <!-- Modal -->
                                 <div class="modal fade" id="login" role="dialog">
                                     <div class="modal-dialog"> 
@@ -65,14 +65,14 @@
                                                     </div>
                                                     <div class="form-group"> 
                                                         <!-- Button -->
-                                                        <div class="col-sm-12 controls"> <a id="btn-login" href="#" class="btn btn-primary btn-success">Login</a> <a id="btn-fblogin" href="#" class="btn btn-primary facebook">Login with</a> </div>
+                                                        <div class="col-sm-12 controls"> <a id="btn-login" href="#" class="btn btn-primary btn-success">Đăng nhập</a> <a id="btn-fblogin" href="#" class="btn btn-primary facebook">Đăng nhập với</a> </div>
                                                     </div>
                                                 </form>
                                             </div>
                                             <div class="modal-footer">
                                                 <div class="form-group">
                                                     <div class="col-md-12 control">
-                                                        <div>Tài khoản chưa được tạo <a href="#">Sign Up Here</a></div>
+                                                        <div>Tài khoản chưa được tạo <a href="#">Đăng ký</a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -80,14 +80,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="#" data-toggle="modal" data-target="#register">Register</a>
+                            <li><a href="#" data-toggle="modal" data-target="#register" class="user_name">Đăng ký</a>
                                 <div class="modal fade" id="register" role="dialog">
                                     <div class="modal-dialog"> 
                                         <!-- Modal content-->
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <div class="panel-heading">
-                                                    <div class="panel-title pull-left">Register</div>
+                                                    <div class="panel-title pull-left">Đăng ký</div>
                                                     <div class="pull-right">
                                                         <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="fa fa-times"></i> </button>
                                                     </div>
@@ -99,7 +99,7 @@
                                                     <label class="control-label"  for="username">Username</label>
                                                     <div class="controls">
                                                         <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
-                                                        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+                                                        <p class="help-block">Username chứa số và ký tự không dấu cách</p>
                                                     </div>
                                                 </div>
                                                 <div class="control-group"> 
@@ -107,7 +107,7 @@
                                                     <label class="control-label" for="email">E-mail</label>
                                                     <div class="controls">
                                                         <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
-                                                        <p class="help-block">Please provide your E-mail</p>
+                                                        <p class="help-block">Nhập địa chỉ Email</p>
                                                     </div>
                                                 </div>
                                                 <div class="control-group"> 
@@ -115,12 +115,12 @@
                                                     <label class="control-label" for="password">Password</label>
                                                     <div class="controls">
                                                         <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
-                                                        <p class="help-block">Password should be at least 4 characters</p>
+                                                        <p class="help-block">Mật khẩu chứa 4 ký tự trở lên</p>
                                                     </div>
                                                 </div>
                                                 <div class="control-group"> 
                                                     <!-- Password -->
-                                                    <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+                                                    <label class="control-label"  for="password_confirm">Xác nhận lại mật khẩu</label>
                                                     <div class="controls">
                                                         <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
                                                         <p class="help-block">Xác nhận mật khẩu</p>
@@ -129,7 +129,7 @@
                                                 <div class="control-group"> 
                                                     <!-- Button -->
                                                     <div class="controls">
-                                                        <button class="btn btn-success">Register</button>
+                                                        <button class="btn btn-success">Đăng ký</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -251,7 +251,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">TRANG CHỦ</a></li>
                         <li><a href="grid-view.html">NỮ</a></li>
-                        <li><a href="grid-view.html">NAM </a><span class="new">new</span></li>
+                        <li><a href="grid-view.html">NAM</a><span class="new">new</span></li>
                         <li class="dropdown"> <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#"> PAGES<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="checkout.html">Checkout</a></li>
@@ -320,7 +320,7 @@
                     <div id="fashion-product" class="owl-carousel fashion-product">
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="pursh" alt="pursh" src="images/product/pro3.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="pursh" alt="pursh" src="images/product/pr_bag.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Túi xách </a></h3>
@@ -333,7 +333,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="sandle" alt="sandal" src="images/product/pro2.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="sandle" alt="sandal" src="images/product/pr_sneakers.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Sneakers</a></h3>
@@ -346,7 +346,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pro5.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pr_quan.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Jeans </a></h3>
@@ -359,7 +359,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pro7.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pr_crt.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Croptops</a></h3>
@@ -372,7 +372,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pro4.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pr_aothun.webp"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Áo phông</a></h3>
@@ -385,7 +385,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pro8.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pr_dress.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Dress</a></h3>
@@ -398,7 +398,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="pursh" alt="pursh" src="images/product/pro6.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="pursh" alt="pursh" src="images/product/pr_dongur.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Đồ ngủ</a></h3>
@@ -411,7 +411,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="sandle" alt="sandal" src="images/product/pro2.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="sandle" alt="sandal" src="images/product/pr_denim.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Denim</a></h3>
@@ -424,7 +424,7 @@
                         </div>
                         <div class="item">
                             <div class="product-block ">
-                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pro8.jpg"></a> </div>
+                                <div class="image"> <a href="#"><img class="img-responsive" title="jeans" alt="jeans" src="images/product/pr_jeans.jpg"></a> </div>
                                 <div class="product-details">
                                     <div class="product-name">
                                         <h3><a href="#">Quần</a></h3>
@@ -591,9 +591,7 @@
                 </div>
                 <!-- video start -->
                 <div class="col-md-8 video">
-                    <video controls>
-                        <source src="beauty.mp4" type="video/mp4">
-                         </video>
+                    <img src="images/fbp.jpg" alt="fashion">
                     <h3>Thời trang hơn cùng Peachie</h3>
                 </div>
                 <!-- video end --> 
@@ -602,132 +600,21 @@
     </section>
     <!-- CMS Banner & Video block End  --> 
     
-    <!-- Latest News block Start  -->
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 news">
-                    <div class="Latest-News-title">
-                        <h2 class="tf">Latest News</h2>
-                    </div>
-                    <div class= "customNavigation"> <a class="btn Latest_prev prev"><i class="fa fa-angle-left"></i></a> <a class="btn Latest_next next"><i class="fa fa-angle-right"></i></a> </div>
-                    <div id="Latest-News" class="owl-carousel ">
-                        <div class="item">
-                            <div class="post">
-                                <div class="image"> <a href="blog.html"><img src="images/blog4.jpg" alt="post" title="post" class="img-responsive"></a> </div>
-                                <div class="content-details">
-                                    <div class="post-title">
-                                        <h3><a href="blog.html">Image post contant wrider with exampler the ttis ant</a></h3>
-                                    </div>
-                                    <div class="description">
-                                        <p>This ante posuere ac Mauris non turpis eu metus congue sagittis Fusce at .</p>
-                                        <div class="read-more"> <a class="read-more" href="single-post.html">Read more <i class="fa fa-long-arrow-right"></i></a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="post">
-                                <div class="image"> <a href="blog.html"><img src="images/blog1.jpg" alt="post" title="post" class="img-responsive"></a> </div>
-                                <div class="content-details">
-                                    <div class="post-title">
-                                        <h3><a href="blog.html">Image post contant wrider with exampler the ttis ant</a></h3>
-                                    </div>
-                                    <div class="description">
-                                        <p>This ante posuere ac Mauris non turpis eu metus congue sagittis Fusce at .</p>
-                                        <div class="read-more"> <a class="read-more" href="single-post.html">Read more <i class="fa fa-long-arrow-right"></i></a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="post">
-                                <div class="image"> <a href="blog.html"><img src="images/blog3.jpg" alt="post" title="post" class="img-responsive"></a> </div>
-                                <div class="content-details">
-                                    <div class="post-title">
-                                        <h3><a href="blog.html">Image post contant wrider with exampler the ttis ant</a></h3>
-                                    </div>
-                                    <div class="description">
-                                        <p>This ante posuere ac Mauris non turpis eu metus congue sagittis Fusce at .</p>
-                                        <div class="read-more"> <a class="read-more" href="single-post.html">Read more <i class="fa fa-long-arrow-right"></i></a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="post">
-                                <div class="image"> <a href="blog.html"><img src="images/blog4.jpg" alt="post" title="post" class="img-responsive"></a> </div>
-                                <div class="content-details">
-                                    <div class="post-title">
-                                        <h3><a href="blog.html">Image post contant wrider with exampler the ttis ant</a></h3>
-                                    </div>
-                                    <div class="description">
-                                        <p>This ante posuere ac Mauris non turpis eu metus congue sagittis Fusce at .</p>
-                                        <div class="read-more"> <a class="read-more" href="single-post.html">Read more <i class="fa fa-long-arrow-right"></i></a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="post">
-                                <div class="image"> <a href="blog.html"><img src="images/blog5.jpg" alt="post" title="post" class="img-responsive"></a> </div>
-                                <div class="content-details">
-                                    <div class="post-title">
-                                        <h3><a href="blog.html">Image post contant wrider with exampler the ttis ant</a></h3>
-                                    </div>
-                                    <div class="description">
-                                        <p>This ante posuere ac Mauris non turpis eu metus congue sagittis Fusce at .</p>
-                                        <div class="read-more"> <a class="read-more" href="single-post.html">Read more <i class="fa fa-long-arrow-right"></i></a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 special">
-                    <div class="Special-title">
-                        <h2 class="tf">Special</h2>
-                    </div>
-                    <div class= "customNavigation"> <a class="special_prev"><i class="fa fa-angle-left"></i></a>
-                        <div id="owlStatus">
-                            <div class="currentItem">
-                                <div class="result"></div>
-                            </div>
-                            /
-                            <div class="owlItems">
-                                <div class="result"></div>
-                            </div>
-                        </div>
-                        <a class="special_next"><i class="fa fa-angle-right"></i></a> </div>
-                    <div class="Special-product">
-                        <div id="special" class="owl-carousel">
-                            <div class="item"><a href="#"><img src="images/special-banner.jpg" alt="#"></a> </div>
-                            <div class="item"><a href="#"><img src="images/special-banner2.jpg" alt="#"></a></div>
-                            <div class="item"><a href="#"><img src="images/special-banner3.jpg" alt="#"></a></div>
-                            <div class="item"><a href="#"><img src="images/special-banner4.jpg" alt="#"></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Latest News block End  --> 
-    
     <!-- Brand logo block Start  -->
     <section id="brand">
         <div class="container">
             <div class="row brand">
                 <div class="col-md-12">
                     <div id="brand-logo" class="owl-carousel">
-                        <div class="item"><a href="#"><img src="images/brand1.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand2.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand3.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand4.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand5.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand6.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand7.png" alt="#"></a></div>
-                        <div class="item"><a href="#"><img src="images/brand8.png" alt="#"></a></div>
                         <div class="item"><a href="#"><img src="images/brand9.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand8.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand7.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand6.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand5.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand4.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand3.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand2.png" alt="#"></a></div>
+                        <div class="item"><a href="#"><img src="images/brand1.png" alt="#"></a></div>
                     </div>
                     <div class= "customNavigation"> <a class="btn brand_prev prev"><i class="fa fa-angle-left"></i></a> <a class="btn brand_next next"><i class="fa fa-angle-right"></i></a> </div>
                 </div>
@@ -737,116 +624,110 @@
     <!-- Brand logo block End  --> 
     
     <!-- Footer block Start  -->
-    <footer id="footer">
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class= "newslatter">
+                    <form>
+                        <h2>Cập nhật thông tin mới nhất</h2>
+                        <div class="input-group">
+                            <input class=" form-control" type="text" placeholder="Email Here......">
+                            <button type="submit" value="Sign up" class="btn btn-large btn-primary">Đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="about">
+                    <div class="footer-logo">
+                        <!-- sua logo and tieu chi -->
+                        <img src="images/logop.jpg" alt="logo">
+                        <div><b><i>YOUR BODY - YOUR STYLE</i></b></div>
+            
+                    </div>
+
+                    <p><i>PEACHIE luôn tôn trọng mọi cá tính và trải nghiệm của từng cá nhân. 
+                        Vì mỗi bản thể là một màu sắc duy nhất trên vũ trụ này, bạn sẽ luôn tỏa sáng theo cách của riêng mình.</i></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="new-store" style="margin-left: 50px;">
+                    <h4>Về Peachie</h4>
+                    <ul class="toggle-footer">
+                        <li><a href="#">Nam</a></li>
+                        <li><a href="#">Nữ</a></li>
+                        <li><a href="#">Quần áo</a></li>
+                        <li><a href="#">Váy</a></li>
+                        <li><a href="#">Phụ kiện</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="information">
+                    <h4>Chăm sóc khách hàng</h4>
+                    <ul class="toggle-footer">
+                        <li><a href="#">Hoàn hàng</a></li>
+                        <li><a href="#">Phương thức vận chuyển</a></li>
+                        <li><a href="#">Danh mục thương hiệu</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Tài khoản</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="contact">
+                    <h4>Liên hệ với chúng tôi</h4>
+                    <ul class="toggle-footer">
+                        <li> <i class="fa fa-map-marker"></i>
+                            <div class="address-info"><b>Địa chỉ</b>: 194 Golden Building, 473 Điện Biên Phủ, Phường 25, Bình Thạnh, Hồ Chí Minh</p></div>
+                        </li>
+                        <li> <i class="fa fa-mobile"></i>
+                            <div class="call-info">+91 987-654-321<br>
+                                <span>+0987-654-321</span> </div>
+                        </li>
+                        <li> <i class="fa fa-envelope"></i>
+                            <div class="email-info"> <a href="#">supportteam13@gmail.com</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class= "newslatter">
-                        <form>
-                            <h2>Be the first to hear our exciting news</h2>
-                            <div class="input-group">
-                                <input class=" form-control" type="text" placeholder="Email Here......">
-                                <button type="submit" value="Sign up" class="btn btn-large btn-primary">Sign up</button>
-                            </div>
-                        </form>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            
             <div class="row">
-                <div class="col-md-3">
-                    <div class="about">
-                        <div class="footer-logo"></div>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature in Virginia</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="new-store">
-                        <h4>What's in store</h4>
-                        <ul class="toggle-footer">
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Delivery Options</a></li>
-                            <li><a href="#">Brand Directory</a></li>
-                            <li><a href="#">Buying Guides</a></li>
-                            <li><a href="#">My Account</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="information">
-                        <h4>information</h4>
-                        <ul class="toggle-footer">
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Delivery Options</a></li>
-                            <li><a href="#">Brand Directory</a></li>
-                            <li><a href="#">Buying Guides</a></li>
-                            <li><a href="#">My Account</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="contact">
-                        <h4>Contact Us</h4>
-                        <ul class="toggle-footer">
-                            <li> <i class="fa fa-map-marker"></i>
-                                <div class="address-info">Warehouse & Offices 12345 Street name,California, USA </div>
-                            </li>
-                            <li> <i class="fa fa-mobile"></i>
-                                <div class="call-info">+91 987-654-321<br>
-                                    <span>+0987-654-321</span> </div>
-                            </li>
-                            <li> <i class="fa fa-envelope"></i>
-                                <div class="email-info"> <a href="#">support@webtrap.in</a></div>
-                            </li>
-                        </ul>
+                <div class="col-md-12">
+                    <div class="copy-right">
+                        <p> Công ty TNHH DM&C - MST: 01234567.89 do sở Kế Hoạch và Đầu Tư Hồ Chí Minh cấp ngày 10/4/2023</p>
+                        <img src="images/bocongthuong.png" alt="boconghthuong">
+                       
+                        <p style="font-size: 12px;"><i>© 2023 - Bản quyền thuộc về Công ty TNHH PEACHIE</i></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="social-link">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="footer-link">
-                            <ul>
-                                <li><a href="#">Specials</a></li>
-                                <li><a href="#">Affiliates</a></li>
-                                <li><a href="#">Gift Vouchers</a></li>
-                                <li><a href="#">Brands</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Site Map</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="copy-right">
-                            <p> All Rights Reserved. Copyright 2016 Powered by Webtrap.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-offer">
-                <h2>$2.55 Next Day Delivery! Ends 8PM ! USE CODE FLASH</h2>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer block End  --> 
+    </div>
+</footer>
+    <!-- footer end -->
+    
     
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
